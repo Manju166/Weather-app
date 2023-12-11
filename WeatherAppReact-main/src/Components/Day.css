@@ -1,0 +1,27 @@
+.weather_temperature{
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.weather_forecast{
+    display: flex;
+    width: 100%;
+    text-align: center;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.weather_forecast_icon {
+    max-width: 50%;
+}
+
+.weather_forecast_item {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    margin: 0 10px 10px;
+    padding: 30px 5px 20px;
+    box-sizing: border-box;
+    min-width: 120px;
+    width: calc(20% - 20px);
+    flex-grow: 1;
+}

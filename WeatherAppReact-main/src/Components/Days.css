@@ -1,0 +1,7 @@
+.weather_forecast{
+    display: flex;
+    width: 100%;
+    text-align: center;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}

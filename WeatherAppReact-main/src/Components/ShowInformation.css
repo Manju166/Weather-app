@@ -1,0 +1,42 @@
+.weather_today{
+    display: flex;
+    justify-content: space-between;
+}
+
+.weather_image{
+    width: 30vmin;
+    align-self: center;
+}
+
+.weather_city{
+	font-size: 36px;
+	font-weight: 600;
+	margin: 20px 0;
+}
+.weather_day{
+	font-size: 30px;
+	margin: 10px 0;
+	font-weight: 400;
+}
+
+.weather_indicator::before{
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+    margin-right: 10px;
+}
+
+.weather_indicator--humidity::before{
+    background-image: url(../../public/images/humidity.png);
+}
+
+.weather_indicator--wind::before{
+    background-image: url(../../public/images/wind.png);
+}
+
+.weather_indicator--pressure::before{
+    background-image: url(../../public/images/pressure.png);
+}
